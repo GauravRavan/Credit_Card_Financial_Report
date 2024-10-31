@@ -1,6 +1,3 @@
-# Credit_Card_Financial_Report
-# Define the content for the Markdown file
-report_md_content = """
 # Credit Card Transaction Dashboard Report
 
 ## Overview
@@ -9,8 +6,8 @@ The data is imported from SQL Server, with preprocessing done to ensure smooth p
 
 ## Data Source
 - **SQL Server Database**: CreditCardReport  
-- **Primary Table**: cc_detail  
-- **Imported Data**: Credit card transaction details from `credit_card.csv`  
+- **Primary Table**: cc_detail, customer_details  
+- **Imported Data**: Credit card transaction details from `credit_card.csv`, Customer details from `customer.csv`
 
 ## Key Metrics and Visuals
 1. **Transaction Volume and Revenue**:  
@@ -42,13 +39,8 @@ The data is imported from SQL Server, with preprocessing done to ensure smooth p
 The dashboard offers a comprehensive overview of customer spending behavior and transaction details.  
 The SQL Server integration enables smooth data processing, while Power BI visuals provide actionable insights into customer demographics,  
 transaction types, and card category performance.
-"""
 
-# Write the content to a Markdown file
-with open("Credit_Card_Dashboard_Report.md", "w") as file:
-    file.write(report_md_content)
+---
 
-
-[Transaction Report.pdf](https://github.com/user-attachments/files/17589317/Transaction.Report.pdf)
-
-![dashboard_img](https://github.com/user-attachments/assets/be7f6ba1-f52f-4a67-833f-bf95cac40ac4)
+| [Download Transaction Report](https://github.com/user-attachments/files/17589317/Transaction.Report.pdf) | ![Dashboard Image](https://github.com/user-attachments/assets/be7f6ba1-f52f-4a67-833f-bf95cac40ac4) |
+|:---:|:---:|
